@@ -1,2 +1,13 @@
-﻿  homographyRANSAC.cpp
+﻿  main.cpp
+D:\MSc\Classes\first_semester\3DComputerVision\Assignments\homography\homographyRANSAC\homographyRANSAC\main.cpp(16,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\MSc\Classes\first_semester\3DComputerVision\Assignments\homography\homographyRANSAC\homographyRANSAC\main.cpp(51,82): warning C4267: 'argument': conversion from 'size_t' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+D:\MSc\Classes\first_semester\3DComputerVision\Assignments\homography\homographyRANSAC\homographyRANSAC\main.cpp(52,82): warning C4267: 'argument': conversion from 'size_t' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
   homographyRANSAC.vcxproj -> D:\MSc\Classes\first_semester\3DComputerVision\Assignments\homography\homographyRANSAC\x64\Debug\homographyRANSAC.exe

@@ -118,6 +118,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,7 +143,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="homographyRANSAC.cpp" />
+    <ClCompile Include="data_reader.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ransac.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="data_reader.h" />
+    <ClInclude Include="ransac.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
